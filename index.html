@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		header {
+			width: 70%;
+
+		}
+		h1 {
+			text-transform: uppercase;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#myDiv {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		#add {
+			width: 100px;
+			height: 75px;
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+		#textBox {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 250px;
+			height: 100px;
+			color: black;
+			font-size: 50px;
+			font-weight: bold;
+		}
+	</style>
+	<header>
+		<h1>save it</h1>
+		<div id="myDiv">
+			<p id="textBox">0</p>
+			<button id="add">Add</button>
+		</div>
+	</header>
+	<script src="index.js"></script>
+</body>
+</html>
